@@ -6,5 +6,6 @@ glenn_page = response.text
 soup = BeautifulSoup(glenn_page, "html.parser")
 
 #comment
+print(soup)
 
 
