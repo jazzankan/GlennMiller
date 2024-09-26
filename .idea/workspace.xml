@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3779856f-5433-45d7-9198-51879e1d1e80" name="Changes" comment="Fångat Millersoppa">
+    <list default="true" id="3779856f-5433-45d7-9198-51879e1d1e80" name="Changes" comment="Extraherat artister och datum samt frågat om jag vill mata in">
+      <change afterPath="$PROJECT_DIR$/feedAPI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -51,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.feedAPI.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -122,7 +124,14 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1726851773185</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Extraherat artister och datum samt frågat om jag vill mata in">
+      <option name="closed" value="true" />
+      <created>1727263920511</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1727263920511</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,6 +141,7 @@
     <MESSAGE value="fjärde commit" />
     <MESSAGE value="commit gitignore" />
     <MESSAGE value="Fångat Millersoppa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fångat Millersoppa" />
+    <MESSAGE value="Extraherat artister och datum samt frågat om jag vill mata in" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extraherat artister och datum samt frågat om jag vill mata in" />
   </component>
 </project>

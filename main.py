@@ -1,5 +1,8 @@
+import time
+
 from bs4 import BeautifulSoup
 import requests
+from feedAPI import feed_it
 
 response = requests.get("https://www.glennmillercafe.se/konserter")
 glenn_page = response.text
@@ -16,7 +19,6 @@ for m in months:
 print(f"Senaste månaden är { found_months[-1] }:")
 glenn_page = glenn_page[month_index[-1]:]
 soup = BeautifulSoup(glenn_page, "html.parser")
-#soup = soup.find_all("div", class_="konsert-container")
 artist_clean = []
 date_clean = []
 artists = soup.find_all("p", class_="artist")
@@ -35,7 +37,14 @@ if len(artist_clean) != len(date_clean):
 else:
     user_input = input("Vill du mata in posterna? j/n:\n")
     if user_input == "j":
-        print("Jasså du")
+        artist_index = 0
+        date_index = 0
+        for ac in artist_clean:
+            feed_it(artist_clean[artist_index], date_clean[date_index])
+            print(artist_clean[artist_index])
+            artist_index += 1
+            date_index += 1
+            time.sleep(0.5)
 
 
 
