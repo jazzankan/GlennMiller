@@ -15,8 +15,10 @@ for m in months:
         found_months.append(m)
     except(ValueError):
         pass
+greatest_index = month_index.index(max(month_index))
+latest_month = found_months[greatest_index]
+print(f"Senaste månaden är { latest_month }:")
 
-print(f"Senaste månaden är { found_months[-1] }:")
 glenn_page = glenn_page[month_index[-1]:]
 soup = BeautifulSoup(glenn_page, "html.parser")
 artist_clean = []

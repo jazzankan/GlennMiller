@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3779856f-5433-45d7-9198-51879e1d1e80" name="Changes" comment="Extraherat artister och datum samt frågat om jag vill mata in">
-      <change afterPath="$PROJECT_DIR$/feedAPI.py" afterDir="false" />
+    <list default="true" id="3779856f-5433-45d7-9198-51879e1d1e80" name="Changes" comment="inmatning funkar, men jag måste fixa så att rätt månad väljs, nämligen den med högst indexnummer!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feedAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/feedAPI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +131,14 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1727263920511</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="inmatning funkar, men jag måste fixa så att rätt månad väljs, nämligen den med högst indexnummer!">
+      <option name="closed" value="true" />
+      <created>1727352813310</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1727352813310</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,6 +149,7 @@
     <MESSAGE value="commit gitignore" />
     <MESSAGE value="Fångat Millersoppa" />
     <MESSAGE value="Extraherat artister och datum samt frågat om jag vill mata in" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extraherat artister och datum samt frågat om jag vill mata in" />
+    <MESSAGE value="inmatning funkar, men jag måste fixa så att rätt månad väljs, nämligen den med högst indexnummer!" />
+    <option name="LAST_COMMIT_MESSAGE" value="inmatning funkar, men jag måste fixa så att rätt månad väljs, nämligen den med högst indexnummer!" />
   </component>
 </project>
