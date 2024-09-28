@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3779856f-5433-45d7-9198-51879e1d1e80" name="Changes" comment="inmatning funkar, men jag måste fixa så att rätt månad väljs, nämligen den med högst indexnummer!">
+    <list default="true" id="3779856f-5433-45d7-9198-51879e1d1e80" name="Changes" comment="Klart för att köras skarpt!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feedAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/feedAPI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -138,7 +138,14 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1727352813310</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Klart för att köras skarpt!">
+      <option name="closed" value="true" />
+      <created>1727427444511</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1727427444511</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,6 +157,7 @@
     <MESSAGE value="Fångat Millersoppa" />
     <MESSAGE value="Extraherat artister och datum samt frågat om jag vill mata in" />
     <MESSAGE value="inmatning funkar, men jag måste fixa så att rätt månad väljs, nämligen den med högst indexnummer!" />
-    <option name="LAST_COMMIT_MESSAGE" value="inmatning funkar, men jag måste fixa så att rätt månad väljs, nämligen den med högst indexnummer!" />
+    <MESSAGE value="Klart för att köras skarpt!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Klart för att köras skarpt!" />
   </component>
 </project>

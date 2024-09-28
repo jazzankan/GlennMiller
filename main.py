@@ -1,5 +1,4 @@
 import time
-
 from bs4 import BeautifulSoup
 import requests
 from feedAPI import feed_it
