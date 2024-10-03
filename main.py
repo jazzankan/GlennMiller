@@ -5,7 +5,7 @@ from feedAPI import feed_it
 
 response = requests.get("https://www.glennmillercafe.se/konserter")
 glenn_page = response.text
-months = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december']
+months = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'November', 'december']
 found_months = []
 month_index = []
 for m in months:
@@ -19,6 +19,7 @@ latest_month = found_months[greatest_index]
 print(f"Senaste månaden är { latest_month }:")
 
 glenn_page = glenn_page[month_index[-1]:]
+
 soup = BeautifulSoup(glenn_page, "html.parser")
 artist_clean = []
 date_clean = []
@@ -46,7 +47,6 @@ else:
             artist_index += 1
             date_index += 1
             time.sleep(0.5)
-
 
 
 
